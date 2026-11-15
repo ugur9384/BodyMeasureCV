@@ -1,0 +1,13 @@
+# Data, checkpoints and run outputs are never committed
+data/
+experiments/data/
+runs/
+ckpt/
+checkpoints*/
+*.pth
+*.pt
+*.npz
+eval_results.json
+.env
+__pycache__/
+.ipynb_checkpoints/
